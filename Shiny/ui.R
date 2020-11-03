@@ -79,7 +79,7 @@ shinyUI(
                        
                ),
                tabPanel("GitHub Info",
-                        a("link"),
+                        a("https://github.com/rpavan07/DevelopingDataProducts/tree/main/Shiny"),
                         hr(),
                         h2("The link of the repo is given.")
                )
