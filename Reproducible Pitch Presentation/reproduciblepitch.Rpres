@@ -1,0 +1,41 @@
+Reproducible Pitch Presentation
+========================================================
+author: R Pavan
+date: 3rd November, 2020
+autosize: true
+
+Introduction
+========================================================
+This presentation is part of the Developing Data Products course.
+
+This is a R Presentation done with RStudio.
+
+Application Overview
+========================================================
+- The application is written in Shiny which is a web application framework for R
+- The source code consists of two files: server.R and ui.R
+- server.R includes the the server logic of a Shiny web application
+- ui.R includes the the user-interface definition, which uses the sidebarLayout template
+- The application is hosted on Rstudio's shiny server in the cloud (Shinyapps.io)
+
+How it works? // Left Panel
+========================================================
+- Label the main title using a titlePanel
+- A dropdown like function is using sidebarPanel with different variables of the dataset which is being used.
+- A checkbox is present to highlight the BoxPlot's outliers.
+
+How it works? // Main Panel
+========================================================
+There are two tabs in main panel as below:
+
+- BoxPlot: This displays a boxplot with the data selected from the dropdown menu vs weight (please check the dataset for more clarification). 
+- RegressionPlot: This displays a regressionplot for the data chosen above.
+
+
+
+Ready to give it a try?
+========================================================
+Use the Shiny app at https://halici.shinyapps.io/Gapminder-Data-Visualization-using-Shiny-and-Plotly/ 
+
+Get the app source code at https://github.com/nihathalici/Developing-Data-Products-course--Assignment-Week-4-Shiny-Application-and-Reproducible-Pitch
+
